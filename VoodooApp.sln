@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VoodooApp", "VoodooApp\VoodooApp.csproj", "{8064F10E-643C-47C3-AFCE-2D9D750EC544}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8064F10E-643C-47C3-AFCE-2D9D750EC544}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8064F10E-643C-47C3-AFCE-2D9D750EC544}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8064F10E-643C-47C3-AFCE-2D9D750EC544}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8064F10E-643C-47C3-AFCE-2D9D750EC544}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E123B91A-5A07-4CE1-A922-67C505D04DBC}
+	EndGlobalSection
+EndGlobal
