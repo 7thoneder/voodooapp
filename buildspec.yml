@@ -3,11 +3,11 @@ phases:
   pre_build:
     commands:
       - echo Restore started on `date`
-      - dotnet restore VoodooApp.sln
+      - dotnet restore VoodooApp/VoodooApp.csproj
   build:
     commands:
       - echo Build started on `date`
-      - dotnet publish -c release -o ./build_output VoodooApp.sln
+      - dotnet publish -c release -o ./build_output VoodooApp.csproj
 artifacts:
   files:
     - CodeBuild-VoodooApp/build_output/**/*
