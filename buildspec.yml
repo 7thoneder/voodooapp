@@ -3,12 +3,12 @@ phases:
 pre_build:
 commands:
 - echo Restore started on `date`
-- dotnet restore SampleCore.csproj
+- dotnet restore VoodooApp.sln
 build:
 commands:
 - echo Build started on `date`
-- dotnet publish -c release -o ./build_output SampleCore.csproj
+- dotnet publish -c release -o ./build_output VoodooApp.sln
 artifacts:
 files:
-- CodeBuild-SampleCore/build_output/**/*
+- CodeBuild-VoodooApp/build_output/**/*
 - scripts/**/*
